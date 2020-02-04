@@ -1,0 +1,4 @@
+seuil $1.pgm $2 tmp1.pgm
+inverse tmp1.pgm tmp2.pgm
+skelcurv tmp2.pgm 0 8 tmp3.pgm
+surimp $1.pgm tmp3.pgm $1_skel.pgm
